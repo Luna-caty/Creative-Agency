@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'work sans';
+    src: url("fonts/WorkSans-Medium.ttf");
+}
+@font-face {
+    font-family: 'nexa';
+    src: url("./fonts/Nexa\ Bold.otf");
+}
+@font-face {
+    font-family: 'Graphie';
+    src: url("fonts/Graphie-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: 'Neue';
+    src: url("fonts/HelveticaNeueBold.otf");
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 40px; */
+    padding-left: 7%;
+    padding-right: 5%;
+
+}
+
+.logo {
+    font-family: 'nexa';
+    color: #502EFF;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #502EFF;
+    font-family: 'work sans';
+    text-decoration:  none;
+}
+
+button {
+    border-radius: 24px;
+    border-style: none;
+    color: white;
+    background-color: #502EFF;
+    height: 30px;
+    width: 100px;
+    padding: 12px 3O px;
+    text-decoration: none;
+    font-family: 'work sans';
+
+}
+button a {
+    text-decoration: none;
+    color: white;
+    height: 24px;
+}
+.firstP {
+    font-family: 'Graphie';
+    font-size: 90px;
+    color: #502EFF;
+}
+
+.secondP {
+    color: #000964;
+    font-family: 'Neue';
+    font-size: 20px;
+    text-align: start;
+    /* position: ; */
+}
+.visual {     
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-left: 7%;
+}
