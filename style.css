@@ -10,10 +10,26 @@
     font-family: 'Graphie';
     src: url("fonts/Graphie-ExtraBold.otf");
 }
+@font-face {
+    font-family: 'Graphie-Bold';
+    src: url("./fonts/Graphie-Bold.otf");
+}
 
 @font-face {
     font-family: 'Neue';
     src: url("fonts/HelveticaNeueBold.otf");
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url("./fonts/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: 'Graphies-semiBold';
+    src: url("./fonts/Graphie-SemiBold.otf");
+}
+@font-face {
+    font-family: 'Graphie-Regular';
+    src: url("./fonts/Graphie-Regular.otf");
 }
 nav {
     display: flex;
@@ -22,6 +38,11 @@ nav {
     /* padding-top: 40px; */
     padding-left: 7%;
     padding-right: 5%;
+
+}
+.hero {
+    padding: 0px;
+    margin: 0px;
 
 }
 
@@ -42,7 +63,7 @@ nav ul li a {
     text-decoration:  none;
 }
 
-button {
+.navBtn {
     border-radius: 24px;
     border-style: none;
     color: white;
@@ -54,7 +75,7 @@ button {
     font-family: 'work sans';
 
 }
-button a {
+.navBtn a {
     text-decoration: none;
     color: white;
     height: 24px;
@@ -79,3 +100,157 @@ button a {
     flex-direction: row-reverse;
     padding-left: 7%;
 }
+.services {
+    background-color: #502EFF;
+
+}
+
+.anotherP {
+    font-family: Graphie;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+.servPort {
+    height: 300px;
+    width: 500px;
+    background-color: #502EFF;
+    padding-left: 15%;
+    padding-top: 8%;
+}
+
+.ServicesP {
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: white;
+}
+
+.service {
+    height: 200px;
+    width: 400px;
+    padding: 7px;
+}
+
+.serviceFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.linkSer {
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: white;
+   
+}
+.Pictures {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 720px;
+}
+
+.customButton {
+    color: #502EFF;
+    background-color: white;
+    border: none;
+    border-radius: 32px;
+    height: 35px;
+    font-family: 'work sans';
+    font-size: 20px;
+}
+
+.anotherBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.TeamP {
+    font-family: 'Graphies-semiBold';
+    font-size: 24px;
+    text-align: center;
+    color: #BEBEBE;
+    padding-top:40px ;
+}
+
+.teamP2 {
+    font-family: 'Graphies-semiBold';
+    font-size: 32px;
+    text-align: center;
+    color: #502EFF;
+}
+
+.secondTextTeam {
+    display: flex;
+    justify-content: center;
+
+}
+
+.person1 {
+    height: 400px;
+    width: 300px;
+    background-color: #FFC5B8;
+    /* background-image: url("./images/jam.png"); */
+}
+
+.teamDescp {
+    font-family: 'Graphie-Bold';
+    color: #502EFF;
+
+}
+
+.teamdescp2 {
+    font-family: 'Graphie-Regular';
+    color: #BEBEBE;
+}
+.coloredBack {
+    width: 400px;
+    height: 400px;
+    background-color: #FFC5B8;
+}
+
+.coloredBack2 {
+    width: 400px;
+    height: 400px;
+    background-color: #FF5630;
+}
+
+.coloredBack3 {
+    width: 400px;
+    height: 400px;
+    background-color: #3E4863;
+}
+.teamMemeberExplication
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.description {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+
+}
+.TeamBtn
+{
+    font-family: 'work sans';
+    font-size: 18px;
+    height: 42px;
+    width: 200px;
+    border: none;
+    background-color: #502EFF;
+    color:white;
+    border-radius: 30px;
+}
+.TeamButton
+{
+    display: flex;
+    justify-content: center;
+}
+
