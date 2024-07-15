@@ -39,20 +39,22 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 40px; */
     padding-left: 7%;
     padding-right: 5%;
-
+    
 }
 .hero {
     padding: 0px;
     margin: 0px;
+   
+   
 
 }
 
 .logo {
     font-family: 'nexa';
     color: #502EFF;
+
 }
 
 nav ul li {
@@ -72,11 +74,12 @@ nav ul li a {
     border-style: none;
     color: white;
     background-color: #502EFF;
-    height: 30px;
-    width: 100px;
-    padding: 12px 3O px;
+    height: 40px;
+    width: 120px;
+    padding: 12px 30 px;
     text-decoration: none;
     font-family: 'work sans';
+    box-shadow: 0 10px 10px #ddd;
 
 }
 .navBtn a {
@@ -95,7 +98,6 @@ nav ul li a {
     font-family: 'Neue';
     font-size: 20px;
     text-align: start;
-    /* position: ; */
 }
 .visual {     
     display: flex;
@@ -103,15 +105,21 @@ nav ul li a {
     align-items: center;
     flex-direction: row-reverse;
     padding-left: 7%;
+    
+   
 }
 .services {
     background-color: #502EFF;
+    padding-bottom: 40px;
+    position: relative; 
+    z-index: 0; 
+   
 
 }
 
 .anotherP {
     font-family: Graphie;
-    font-size: 70px;
+    font-size: 90px;
     color: white;
     text-align: center;
 }
@@ -126,7 +134,7 @@ nav ul li a {
 
 .ServicesP {
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 16px;
     color: white;
 }
 
@@ -154,6 +162,7 @@ nav ul li a {
     padding-right: 30px;
     padding-left: 30px;
     height: 720px;
+    padding-bottom:50px ;
 }
 
 .customButton {
@@ -164,6 +173,8 @@ nav ul li a {
     height: 35px;
     font-family: 'work sans';
     font-size: 20px;
+    box-shadow: 0 5px 10px #424242;
+    
 }
 
 .anotherBtn {
@@ -254,15 +265,16 @@ nav ul li a {
     background-color: #502EFF;
     color:white;
     border-radius: 30px;
+    box-shadow: 0 20px 10px #ddd;
 }
 .TeamButton
 {
     display: flex;
     justify-content: center;
+    
 }
-.Contactus
-{
-    padding-bottom: 50px;
+.Contactus{
+    padding-bottom:70px ;
 }
 .firstTextContact {
     font-family: 'Graphie-SemiBold';
@@ -306,6 +318,7 @@ input {
     color: white;
     width: 120px;
     height: 40px;
+    box-shadow: 0 10px 10px #ddd;
 
 }
 .testbtn
@@ -376,3 +389,76 @@ hr
     color: #502EFF;
     text-align: center;
 }
+span
+{ 
+    background-color: yellow;
+    color: white;
+}
+.ClientAcheivement {
+    background-color: #FAF7FF;
+    display: flex;
+    justify-content: end;
+
+}
+
+.leftPic {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    padding-top: 10%;
+    text-align: center;
+
+}
+
+.firstTextClient {
+    font-family: 'Graphie';
+    color: #502EFF;
+    font-size: 70px;
+    width: 450px;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.testClient {
+    display: flex;
+    justify-content: center;
+    padding-left: 50%;
+
+}
+
+.ClientP {
+    font-family: 'Poppins-SemiBold';
+    font-size: 20px;
+    color: #502EFF;
+}
+
+.test1 {
+    display: flex;
+
+}
+
+.test2 {
+    display: flex;
+}
+
+.achivText {
+    font-family: 'Poppins-SemiBold';
+    color: #502EFF;
+    font-size: 20px;
+
+}
+
+.Acheivement {
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.iconOpacity {
+    filter: invert(83%) sepia(2%) saturate(10%) hue-rotate(32deg) brightness(95%) contrast(87%);
+}
+
+.iconOpacity2 {
+    filter: invert(19%) sepia(75%) saturate(5590%) hue-rotate(250deg) brightness(98%) contrast(107%);
+}
+
