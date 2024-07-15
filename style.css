@@ -31,6 +31,10 @@
     font-family: 'Graphie-Regular';
     src: url("./fonts/Graphie-Regular.otf");
 }
+@font-face {
+    font-family: '¨Poppins-SemiBold';
+    src: url("./fonts/Poppins-SemiBold.ttf");
+}
 nav {
     display: flex;
     align-items: center;
@@ -166,7 +170,11 @@ nav ul li a {
     display: flex;
     justify-content: center;
 }
+.team
+{ 
+    padding-bottom: 70px;
 
+}
 .TeamP {
     font-family: 'Graphies-semiBold';
     font-size: 24px;
@@ -192,7 +200,6 @@ nav ul li a {
     height: 400px;
     width: 300px;
     background-color: #FFC5B8;
-    /* background-image: url("./images/jam.png"); */
 }
 
 .teamDescp {
@@ -206,19 +213,19 @@ nav ul li a {
     color: #BEBEBE;
 }
 .coloredBack {
-    width: 400px;
+    width: 300px;
     height: 400px;
     background-color: #FFC5B8;
 }
 
 .coloredBack2 {
-    width: 400px;
+    width: 300px;
     height: 400px;
     background-color: #FF5630;
 }
 
 .coloredBack3 {
-    width: 400px;
+    width: 300px;
     height: 400px;
     background-color: #3E4863;
 }
@@ -233,7 +240,7 @@ nav ul li a {
 
 .description {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-bottom: 50px;
 
 }
@@ -253,4 +260,119 @@ nav ul li a {
     display: flex;
     justify-content: center;
 }
+.Contactus
+{
+    padding-bottom: 50px;
+}
+.firstTextContact {
+    font-family: 'Graphie-SemiBold';
+    color: #CBD5F9;
+    font-size: 20px;
+    text-align: center;
+}
 
+.secondTextContact {
+    font-family: 'Poppins-SemiBold';
+    font-size: 30px;
+    color: #502EFF;
+    text-align: center;
+}
+
+input {
+    border-color: #502EFF;
+    border-radius: 24px;
+    height: 30px;
+    width: 180px;
+    padding-left: 35px;
+    border: non;
+    padding-right: 40px;
+    margin-right: 40px;
+
+}
+
+::placeholder {
+    font-family: 'Roboto';
+    font-size: medium;
+    color: #502EFF;
+
+}
+
+.ContactBtn {
+    font-family: 'Poppins';
+    font-size: 20px;
+    background-color: #502EFF;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+
+}
+.testbtn
+{
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #FAF7FF;
+
+    
+    padding-top: 70px;
+}
+
+.ulFooter {
+    list-style-type: none;
+    font-family: 'Poppins';
+    color: #000964;
+
+}
+
+.liFooter a {
+    font-family: 'Poppins';
+    color: #502EFF;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.AgencyFotterText {
+    font-family: 'nexa';
+    color: #000964;
+    font-size: 32px;
+    width: 200px;
+    margin: 10px
+
+}
+
+.AgencyFotterText2 {
+    font-family: 'Poppins';
+    color: #502EFF;
+    width: 260px;
+    /* padding-top: 30px; */
+    margin: 0%;
+
+}
+
+.AgencyFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.firstTextFooter {
+    display: flex;
+    flex-direction: column;
+}
+hr
+{
+    height: 1px;
+    background: #CBD5F9;
+}
+.cptext
+{
+    color: #502EFF;
+    text-align: center;
+}
