@@ -2,14 +2,17 @@
     font-family: 'work sans';
     src: url("fonts/WorkSans-Medium.ttf");
 }
+
 @font-face {
     font-family: 'nexa';
     src: url("./fonts/Nexa\ Bold.otf");
 }
+
 @font-face {
     font-family: 'Graphie';
     src: url("fonts/Graphie-ExtraBold.otf");
 }
+
 @font-face {
     font-family: 'Graphie-Bold';
     src: url("./fonts/Graphie-Bold.otf");
@@ -19,36 +22,39 @@
     font-family: 'Neue';
     src: url("fonts/HelveticaNeueBold.otf");
 }
+
 @font-face {
     font-family: 'Poppins';
     src: url("./fonts/Poppins-Medium.ttf");
 }
+
 @font-face {
     font-family: 'Graphies-semiBold';
     src: url("./fonts/Graphie-SemiBold.otf");
 }
+
 @font-face {
     font-family: 'Graphie-Regular';
     src: url("./fonts/Graphie-Regular.otf");
 }
+
 @font-face {
     font-family: '¨Poppins-SemiBold';
     src: url("./fonts/Poppins-SemiBold.ttf");
 }
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 7%;
     padding-right: 5%;
-    
+
 }
+
 .hero {
     padding: 0px;
     margin: 0px;
-   
-   
-
 }
 
 .logo {
@@ -66,7 +72,7 @@ nav ul li {
 nav ul li a {
     color: #502EFF;
     font-family: 'work sans';
-    text-decoration:  none;
+    text-decoration: none;
 }
 
 .navBtn {
@@ -82,11 +88,13 @@ nav ul li a {
     box-shadow: 0 10px 10px #ddd;
 
 }
+
 .navBtn a {
     text-decoration: none;
     color: white;
     height: 24px;
 }
+
 .firstP {
     font-family: 'Graphie';
     font-size: 90px;
@@ -99,21 +107,23 @@ nav ul li a {
     font-size: 20px;
     text-align: start;
 }
-.visual {     
+
+.visual {
     display: flex;
     justify-content: end;
     align-items: center;
     flex-direction: row-reverse;
     padding-left: 7%;
-    
-   
+
+
 }
+
 .services {
     background-color: #502EFF;
     padding-bottom: 40px;
-    position: relative; 
-    z-index: 0; 
-   
+    position: relative;
+    z-index: 0;
+
 
 }
 
@@ -141,7 +151,7 @@ nav ul li a {
 .service {
     height: 200px;
     width: 400px;
-    padding: 7px;
+    padding-right: 15px;
 }
 
 .serviceFlex {
@@ -150,19 +160,22 @@ nav ul li a {
     flex-wrap: wrap;
     padding: 40px;
 }
+
 .linkSer {
     text-decoration: none;
     font-family: 'Poppins';
     color: white;
-   
+    text-align: end;
+
 }
+
 .Pictures {
     display: flex;
     justify-content: flex-start;
     padding-right: 30px;
     padding-left: 30px;
     height: 720px;
-    padding-bottom:50px ;
+    padding-bottom: 50px;
 }
 
 .customButton {
@@ -174,24 +187,25 @@ nav ul li a {
     font-family: 'work sans';
     font-size: 20px;
     box-shadow: 0 5px 10px #424242;
-    
+
 }
 
 .anotherBtn {
     display: flex;
     justify-content: center;
 }
-.team
-{ 
+
+.team {
     padding-bottom: 70px;
 
 }
+
 .TeamP {
     font-family: 'Graphies-semiBold';
     font-size: 24px;
     text-align: center;
     color: #BEBEBE;
-    padding-top:40px ;
+    padding-top: 40px;
 }
 
 .teamP2 {
@@ -223,25 +237,35 @@ nav ul li a {
     font-family: 'Graphie-Regular';
     color: #BEBEBE;
 }
+
 .coloredBack {
     width: 300px;
     height: 400px;
     background-color: #FFC5B8;
+    background-image: url("./images/NewJam.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .coloredBack2 {
     width: 300px;
     height: 400px;
     background-color: #FF5630;
+    background-image: url("./images/Ema.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .coloredBack3 {
     width: 300px;
     height: 400px;
     background-color: #3E4863;
+    background-image: url("./images/Mike.png");
+    background-size: cover;
+    background-position: center;
 }
-.teamMemeberExplication
-{
+
+.teamMemeberExplication {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -255,27 +279,29 @@ nav ul li a {
     padding-bottom: 50px;
 
 }
-.TeamBtn
-{
+
+.TeamBtn {
     font-family: 'work sans';
     font-size: 18px;
     height: 42px;
     width: 200px;
     border: none;
     background-color: #502EFF;
-    color:white;
+    color: white;
     border-radius: 30px;
     box-shadow: 0 20px 10px #ddd;
 }
-.TeamButton
-{
+
+.TeamButton {
     display: flex;
     justify-content: center;
-    
+
 }
-.Contactus{
-    padding-bottom:70px ;
+
+.ContactUs {   
+    margin-bottom: 40px;
 }
+
 .firstTextContact {
     font-family: 'Graphie-SemiBold';
     color: #CBD5F9;
@@ -321,15 +347,14 @@ input {
     box-shadow: 0 10px 10px #ddd;
 
 }
-.testbtn
-{
+
+.testbtn {
     display: flex;
     justify-content: center;
 }
+
 footer {
     background-color: #FAF7FF;
-
-    
     padding-top: 70px;
 }
 
@@ -354,14 +379,12 @@ footer {
     font-size: 32px;
     width: 200px;
     margin: 10px
-
 }
 
 .AgencyFotterText2 {
     font-family: 'Poppins';
     color: #502EFF;
     width: 260px;
-    /* padding-top: 30px; */
     margin: 0%;
 
 }
@@ -379,21 +402,22 @@ footer {
     display: flex;
     flex-direction: column;
 }
-hr
-{
+
+hr {
     height: 1px;
     background: #CBD5F9;
 }
-.cptext
-{
+
+.cptext {
     color: #502EFF;
     text-align: center;
 }
-span
-{ 
+
+span {
     background-color: yellow;
     color: white;
 }
+
 .ClientAcheivement {
     background-color: #FAF7FF;
     display: flex;
@@ -432,14 +456,6 @@ span
     color: #502EFF;
 }
 
-.test1 {
-    display: flex;
-
-}
-
-.test2 {
-    display: flex;
-}
 
 .achivText {
     font-family: 'Poppins-SemiBold';
@@ -454,6 +470,7 @@ span
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .iconOpacity {
     filter: invert(83%) sepia(2%) saturate(10%) hue-rotate(32deg) brightness(95%) contrast(87%);
 }
@@ -461,4 +478,3 @@ span
 .iconOpacity2 {
     filter: invert(19%) sepia(75%) saturate(5590%) hue-rotate(250deg) brightness(98%) contrast(107%);
 }
-
