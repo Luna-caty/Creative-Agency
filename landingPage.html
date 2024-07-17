@@ -4,13 +4,16 @@
 <head>
     <title> Creative Agency</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        
+    </style>
 </head>
 
 <body>
     <!-- First Section Hero Section -->
-    <div class="hero">
+    <div class="hero" style="position: relative; z-index: 0;">
         <nav>
-            <p class="logo"> 
+            <p class="logo">
                 Agency
                 <img src="./images/AgencyLogo.png" style="padding-top: 5px;">
             </p>
@@ -23,17 +26,21 @@
             </ul>
             <button class="navBtn"><a href="#"> My Projects</a></button>
         </nav>
+
+        
+        <div class="test">
+            <p class="firstP"> Creative Agency</p>
+            <p class="secondP">
+                Watch an intro video</p>
+        </div>
         <div class="visual">
-            <img src="./images/thatMan.png" width="700px">
-            <div class="test">
-                <p class="firstP"> Creative Agency</p>
-                <p class="secondP">Watch an intro video</p>
-            </div>
+            <img src="./images/thatMan.png" width="750px" style="position: absolute; z-index: -1;">
         </div>
     </div>
 
     <!-- Second Section services and pictures -->
-    <section class="services">
+    <section class="services" style="position: relative; z-index: -3;">
+        
         <div class="servPort">
             <p class="anotherP"> Services & Portfolio</p>
         </div>
@@ -87,7 +94,8 @@
         <div class="Pictures">
             <img src="./images/Left Pic.png" width="500px">
             <div class="centerPic">
-                <img src="./images/Center Pic1.png" class="testpic" width="470px" style="padding-left: 50px; ;" >
+                <img src="./images/Center Pic1.png" class="testpic" width="470px"
+                    style="padding-left: 50px; object-fit: cover; ;">
                 <img src="./images/Center Pic2.png" style="padding-left: 20px;" width="530px" height="370px">
             </div>
             <img src="./images/Right Pic.png" width="350px">
@@ -99,6 +107,7 @@
 
     <!-- Third Section : Meet our Team -->
     <section class="team">
+        <p class="testP">team</p>
         <p class="TeamP">
             Meet the team
         </p>
@@ -255,4 +264,5 @@
         <p class="cptext">&copy indianpix | All rights reserved 2019</p>
     </footer>
 </body>
+
 </html>

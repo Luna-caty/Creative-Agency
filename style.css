@@ -53,7 +53,11 @@ nav {
 }
 
 .hero {
-    padding: 0px;
+    padding-bottom: 20%;
+    margin: 0px;
+}
+
+body {
     margin: 0px;
 }
 
@@ -85,7 +89,7 @@ nav ul li a {
     padding: 12px 30 px;
     text-decoration: none;
     font-family: 'work sans';
-    box-shadow: 0 10px 10px #ddd;
+    box-shadow: 0 10px 10px #858585;
 
 }
 
@@ -93,6 +97,18 @@ nav ul li a {
     text-decoration: none;
     color: white;
     height: 24px;
+}
+
+.imageHero {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav {
+    position: relative;
+    z-index: -1;
 }
 
 .firstP {
@@ -114,6 +130,7 @@ nav ul li a {
     align-items: center;
     flex-direction: row-reverse;
     padding-left: 7%;
+    /* padding-top: 20%; */
 
 
 }
@@ -123,9 +140,9 @@ nav ul li a {
     padding-bottom: 40px;
     position: relative;
     z-index: 0;
-
-
+    background-image: url("./images/Groupe\ 935.png");
 }
+
 
 .anotherP {
     font-family: Graphie;
@@ -138,13 +155,13 @@ nav ul li a {
     height: 300px;
     width: 500px;
     background-color: #502EFF;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 8%;
 }
 
 .ServicesP {
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 14px;
     color: white;
 }
 
@@ -183,10 +200,10 @@ nav ul li a {
     background-color: white;
     border: none;
     border-radius: 32px;
-    height: 35px;
+    height: 45px;
     font-family: 'work sans';
     font-size: 20px;
-    box-shadow: 0 5px 10px #424242;
+    box-shadow: 0 5px 10px #858585;
 
 }
 
@@ -298,7 +315,7 @@ nav ul li a {
 
 }
 
-.ContactUs {   
+.ContactUs {
     margin-bottom: 40px;
 }
 
@@ -477,4 +494,22 @@ span {
 
 .iconOpacity2 {
     filter: invert(19%) sepia(75%) saturate(5590%) hue-rotate(250deg) brightness(98%) contrast(107%);
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    padding-left: 7%;
+}
+.testP {
+    color: #B4A7F9;
+    opacity: 9%;
+    font-family: 'Graphie';
+    font-size: 300px;
+    position: absolute;
+    z-index: -3;
+    margin: 15px;
+
 }
