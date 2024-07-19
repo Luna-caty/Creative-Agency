@@ -189,10 +189,48 @@ nav ul li a {
 .Pictures {
     display: flex;
     justify-content: flex-start;
-    padding-right: 30px;
-    padding-left: 30px;
-    height: 720px;
     padding-bottom: 50px;
+}
+
+.leftPicture {
+    width: 430px;
+    height: 750px;
+}
+
+#left {
+
+    width: 500px;
+    height: 845px;
+    object-fit: contain;
+}
+
+.centerPic {
+    width: 510px;
+    height: 840px;
+    object-fit: contain;
+    padding-left: 50px;
+
+}
+
+#centerpic2 {
+
+    height: 530px;
+    object-fit: contain;
+}
+
+#centerpic1 {
+    object-fit: contain;
+    width: 450px;
+    padding-left: 30px;
+}
+
+.rightPicture {
+    width: 300px;
+    height: 840px;
+}
+
+#right {
+    width: 340px;
 }
 
 .customButton {
@@ -503,6 +541,7 @@ span {
     width: 400px;
     padding-left: 7%;
 }
+
 .testP {
     color: #B4A7F9;
     opacity: 9%;
@@ -511,5 +550,11 @@ span {
     position: absolute;
     z-index: -3;
     margin: 15px;
+
+}
+
+.medailleText {
+    display: flex;
+    padding-bottom: 40px;
 
 }
